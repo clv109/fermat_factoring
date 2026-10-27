@@ -6,7 +6,8 @@ import (
 )
 
 func main() {
-	fmt.Println(FermatFactoring(200099)) // Adjust the large prime number to test different fermat factoring cases
+	final_val1, final_val2 := FermatFactoring(200099)
+	fmt.Printf("The two prime factors are %f and %f\n", final_val1, final_val2) // Adjust the large prime number to test different fermat factoring cases
 }
 
 func FermatFactoring(n float64) (float64, float64) {
